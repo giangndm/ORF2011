@@ -1,0 +1,4 @@
+server:server.c listUser.h listUser.c dataprocess.h
+        gcc -o server server.c -pthread -lm
+run:server
+        ./server
